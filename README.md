@@ -2,14 +2,13 @@
 
 *All commands are prefaced by `C-b` by default.*
 
-* `$`   rename session
-* `,`   rename window
 
 ## Sessions
 
 * `s`   select new session
 * `L`   switch to previous session
 * `d`   detach
+* `$`   rename session
 
 
 ## Windows
@@ -18,6 +17,7 @@
 
 * `c`   create window
 * `&`   kill window
+* `,`   rename window
 * `!`   break pane from window
 * `.`   move window to index
 
