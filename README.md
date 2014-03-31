@@ -2,8 +2,9 @@
 
 *All commands are prefaced by `C-b` by default.*
 
+## Standard Commands
 
-## Sessions
+### Sessions
 
 * `s`   select new session
 * `L`   switch to previous session
@@ -11,9 +12,9 @@
 * `$`   rename session
 
 
-## Windows
+### Windows
 
-### Management
+#### Management
 
 * `c`   create window
 * `&`   kill window
@@ -21,7 +22,7 @@
 * `!`   break pane from window
 * `.`   move window to index
 
-### Navigation
+#### Navigation
 
 * `w`   switch to window interactively
 * `'`   switch to window index
@@ -31,9 +32,9 @@
 * `p`   previous window (`M-p` for previous window with active bell)
 
 
-## Panes
+### Panes
 
-### Management
+#### Management
 
 * `"`   horizontal split
 * `%`   vertical split
@@ -44,7 +45,7 @@
 
 * `C-`*arrow key* --- resize current pane  (`M-`*arrow key* for larger step sizes)
 
-### Navigation
+#### Navigation
 
 * `o`   next pane
 * `;`   previously active pane
@@ -53,7 +54,7 @@
 *  *arrow key* --- navigate panes visually, relative to current pane
 
 
-## Other
+### Other
 
 * `[`   enter copy mode
 * `]`   paste most recently copied text
@@ -61,3 +62,10 @@
 * `f`   find text
 * `t`   show the time
 * `?`   help
+
+
+## Custom Commands
+
+Join panes (opposite of `!` breaking behavior)
+* `j`    send pane to location
+* `C-j`  join pane from location
