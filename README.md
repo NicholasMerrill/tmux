@@ -28,6 +28,8 @@
 * `'`   switch to window index
 * `0` to `9` select window at index
 * `l`   previously selected window
+
+**Disabled in favor of `C-n` and `C-p`**
 * `n`   next window (`M-n` for next window with active bell)
 * `p`   previous window (`M-p` for previous window with active bell)
 
