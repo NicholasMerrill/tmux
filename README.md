@@ -1,6 +1,6 @@
 # tmux commands
 
-*All commands are prefaced by `C-b` by default.*
+*All commands are prefaced by `C-\`.*
 
 ## Standard Commands
 
