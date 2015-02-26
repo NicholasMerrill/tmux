@@ -69,5 +69,5 @@
 ## Custom Commands
 
 Join panes (opposite of `!` breaking behavior)
-* `j`    send pane to location
-* `C-j`  join pane from location
+* `j`    send pane to location (horizontally)
+* `C-j`  send pane to location (vertically)
